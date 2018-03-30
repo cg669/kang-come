@@ -3,20 +3,22 @@
         <div class="left"><a href="/" class="home">康come首页</a></div>
         <ul class="right nav-right">
             <li>
-                <a href="">请登录</a>
+                <router-link to="/">请登录</router-link>
             </li>
             <li>
-                <a href="">免费注册</a>
+                <router-link to="/">免费注册</router-link>
             </li>
             <li>
-                <img src="../image/car.png" alt="购物车">
-                <a href="">我的订单</a>
+                <router-link to="/">
+                    <img src="../image/car.png" alt="购物车">
+                    <i>我的订单</i>
+                </router-link>
             </li>
             <li>
-                <a href="">我的消息</a>
+                <router-link to="/">我的消息</router-link>
             </li>
             <li>
-                <a href="">客服电话</a>
+                <router-link to="/">客服电话</router-link>
             </li>
         </ul>
   </div>
@@ -54,6 +56,9 @@ export default {
                 }
                 img{
                     vertical-align: middle;
+                }
+                i{
+                    font-style: normal;
                 }
             }
         }

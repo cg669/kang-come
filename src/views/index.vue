@@ -1,16 +1,25 @@
 <template>
     <div class="index">
-        <commonNav />
-        <searchBox />
+        <CommonNav />
+        <SearchBox />
+        <TopNav />
+        <Banner />
+        <Content />
     </div>
 </template>
 <script>
-import commonNav from '../common/nav.vue'
-import searchBox from '../component/home/search.vue'
+import CommonNav from '../common/nav.vue'
+import SearchBox from '../component/home/search.vue'
+import TopNav from '../component/home/topNav.vue'
+import Banner from '../component/home/banner.vue'
+import Content from '../component/home/content.vue'
 export default {
     components:{
-        commonNav,
-        searchBox
+        CommonNav,
+        SearchBox,
+        TopNav,
+        Banner,
+        Content
     },
     methods: {
         handleStart() {

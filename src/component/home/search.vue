@@ -2,7 +2,9 @@
   <div class="search">
       <div class="layout">
           <h1>
-              <img src="../../image/logo.png" alt="康come">
+              <router-link to="/">
+                <img src="../../image/logo.png" alt="康come">
+              </router-link>
           </h1>
           <div class="search-box">
               <div class="search-input left">
