@@ -3,6 +3,8 @@
       <div class="layout">
           <SpecialGoods />
           <SpecialGoodsRow :specialGoodsRow='specialGoodsRow' :titleColor='titleColor' :titleName='titleName' />
+          <SpecialGoodsRow :specialGoodsRow='specialGoodsRow' :titleColor='titleColor' :titleName='titleName' />
+          <SpecialGoodsRow :specialGoodsRow='specialGoodsRow' :titleColor='titleColor' :titleName='titleName' />
       </div>
   </div>
 </template>
