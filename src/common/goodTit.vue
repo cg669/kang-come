@@ -1,10 +1,10 @@
 <template>
   <div class="tit">
-      <div class="left">
+      <div class="left left_title">
           <span class="bar" v-bind:style="{ backgroundColor: color }"></span>
           <span>{{tit}}</span>
       </div>
-      <div class="right">
+      <div class="right" style="font-size:16px;">
           <router-link :to="linkUrl">
             <span class="more">
                     查看全部
@@ -40,13 +40,21 @@ export default {
     line-height: 80px;
     font-size: 24px;
     color: #31332a;
-    .bar{
-        height: 24px;
-        width: 6px;
-    }
-    .more{
-        cursor: pointer;
-        padding-right: 6px;
+    .left_title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .bar{
+            height: 24px;
+            width: 6px;
+            line-height: 80px;
+            margin-right: 10px;
+        }
+        .more{
+            font-size: 16px;
+            cursor: pointer;
+            padding-right: 6px;
+        }
     }
 }
 </style>

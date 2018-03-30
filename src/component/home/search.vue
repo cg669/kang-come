@@ -53,6 +53,7 @@ export default {
                     text-align: center;
                     background-color: #abcd12;
                     color: #fff;
+                    border: none;
                 }
             }
         }

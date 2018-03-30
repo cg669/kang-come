@@ -1,6 +1,6 @@
 <template>
   <div>
-      <GoodTit color="#d6a1a" tit="今日优选" link=“/” />
+      <GoodTit color="#d61a1a" tit="今日优选" linkUrl=“/” />
       <div class="special-goods">
           <ul class="left xiao-tu">
               <li v-for="(el,key) in specialGoods.left" :key="key" @mouseenter="activeGood=el.id" :class="{ 'active': ( activeGood === el.id)}">
