@@ -1,5 +1,5 @@
 const getters = {
-    // sidebar: state => state.app.sidebar,
+    activeNav: state => state.app.activeNav,
     // route: state => state.app.route,
     // isConfirmOrderStatus: state => state.app.isConfirmOrderStatus,
     // inventoryCard: state => state.app.inventoryCard,

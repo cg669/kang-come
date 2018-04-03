@@ -1,23 +1,18 @@
-import Cookies from 'js-cookie'
-
+// import Cookies from 'js-cookie'
+import * as types from '../types'
 const app = {
   state: {
-    // sidebar: {
-      
-    // },
+    activeNav : '首页'
     
   },
   mutations: {
-    TOGGLE_SIDEBAR: state => {
-      
+    SET_ACTIVE_NAV: (state, nav) => {
+      state.activeNav = nav
     }
   },
   actions: {
-    ToggleSideBar: ({ commit }) => {
-      commit('TOGGLE_SIDEBAR')
-    },
-    ActiveRouter: ({ commit }, route) => {
-      commit('ACTIVE_ROUTER', route)
+    SetActiveNav: ({ commit }, nav) => {
+      commit(types.SET_ACTIVE_NAV, nav)
     }
   }
 }

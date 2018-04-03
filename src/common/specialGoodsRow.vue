@@ -64,20 +64,25 @@ export default {
     .special-goods-row{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         li{
-            width: 309px;
+            width: 290px;
             height: 341px;
             float: left;
             display: flex;
             flex-direction:column;
             background: #ffffff;
             margin-right: 10px;
+            margin-top: 10px;
             .pic{
                 text-align: center;
                 height: 211px;
                 width: 100%;
                 padding-top: 20px;
+                display: flex;
+                justify-content:center;
                 img{
+                    align-self:center;
                     width: 96px;
                 }
             }

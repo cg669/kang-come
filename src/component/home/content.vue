@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
  @import '../../style/common.scss';
 .content{
-    padding: 40px 0 0;
+    padding: 40px 0 30px;
     background-color: #f7f7f7;
 }
 </style>
